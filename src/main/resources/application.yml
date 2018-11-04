@@ -38,3 +38,6 @@ spring:
             0D7TLa2hsvQQe6R/y2wAd15WzNAiJXcBkPEJqgqrTbcamhfQn82pynLtDi3GVYI+
             800lp8YMsn+kTgVthuDl/PPXI5KfAs/oYAFwGJroGf5Z0VuIZi5pJA==
             -----END RSA PRIVATE KEY-----
+          searchPaths: foo,{application}
+          force-pull: true
+          deleteUntrackedBranches: true
