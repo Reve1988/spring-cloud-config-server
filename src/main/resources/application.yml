@@ -1,0 +1,40 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:Reve1988/spring-cloud-config-test.git
+          ignoreLocalSshSettings: true
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAySQ/K4SbbVvErbtM8FXqXF3yv0HpglHziLrhHWzzfaW2Hhl2
+            wDZrjn08eUAZdBDVGY4eHlKo4UEqR8HEuwxTqbRrR2gt1ib15YTQt3Y++CLJU9re
+            y0RHx2skI7krAIeDI0pySWFM6nyMllOwVJYUOytWy8w4TFf9HSps48825nM9ljLd
+            55rb7zVXnLDYbEjlpMjedQ/BkKPIZwzYplG2zuoSqGI4omIKx+zge35ykysMILKI
+            7GxrJ4qeYbYc8Y1ixGF6ftcn/bnCF1UPPdt10eBOox6umbtIKWaFsiM4t45kiHtV
+            dVnMVUA7ExzC2fhw5ztieovnifmPmu1Ckpi9ywIDAQABAoIBADw/PSSdzahN6nVX
+            Os5qDY6pHUKoTXcZcOatgyw7LBugfRI68lTUeBbv8CMpTfZz7ECBTwgqHieKS02+
+            /lxAbvbP8aorzD7u4Ixk4ddx9Z6BXOhfEIi15QIYV3TTy8uWy3LQo7bTDCTYNYv5
+            eUF8yoaGjrLwcpR7bndD8+WwdXNE3WBnYPMxxbeL0sd8mPPRgEBEB9ZhzpiMsfgx
+            bfEIevZ3+gYwM20IFKkJuLoEzAA20gWJHZRDN0qm9wRw1WUYnOTDE6Pn4iyYMwvi
+            VJqUk0GKPL/hz+n7IEmHw7SPjxMTycEG2pKVNdFhze0qcxfMHUcJH/S/78FYNhi6
+            klycJgECgYEA54Xq2ZJWQkluqUUi28g1jB5YGrGr6LXBYW6PfQfcUdCidr8vHV5w
+            xE5VPyVAzKMec4fe8/juOJLlM9bUj+JLsuLchOvI4bFey+5TA1/xpeAfoqt8Ylxb
+            VF+snoGAElPZh1/sSKQDAUWZaHZ1RM7a+5p3hu46LzbpHLkpSsEoAIECgYEA3mgQ
+            tE3t6oMk/b8IOt5P3DpNSoa6CX6JEBQDu7ogau1/FIOu+jqV1X84nVmB4Tx11gRF
+            jEYWAPKDig7VoilJbwWXhliBtv6f4FP5WsEuW/rcrjwlPBjsiJs4ac6aSWJJa0wt
+            +eOgLyh8tVxbHo1UUmLuEoFxt3kefQq003GUmEsCgYEAnCgEFgmQqpbyz7K05z5r
+            d32D+UU66POmYfv7Rd6GaJxq5+LdeVaYgp8++h87TIr83/mVlEKjEn9pnoRYzE9a
+            tWY0TGboD+ndQXkWfqE40KORUtuNQp5+bzM0r5gy9Kmff6JgMUKGUFZMOVwkjmti
+            4e72jYiir/O+WUQ+KJCNVYECgYAStJ3zDDreZnlN/isrCFefJigqBHrRIZtVhtlp
+            iJYBaEgv6YNl+FdxxWl1knmh//vJLELNMXfYTI1TpzvAj8hlVgsQeZEvWusHawil
+            4WmMwuScouJe05nRQ3zTKVVApsuWAqo7QjHOxZD3j/T59NkKtNdhJxHxZHZz/dqH
+            jh35UQKBgQDGJgfiyUr5RRty5s6e4XUGS0pYQfcJ8Bp/Bp8jUals1n8utmhMjm9V
+            0D7TLa2hsvQQe6R/y2wAd15WzNAiJXcBkPEJqgqrTbcamhfQn82pynLtDi3GVYI+
+            800lp8YMsn+kTgVthuDl/PPXI5KfAs/oYAFwGJroGf5Z0VuIZi5pJA==
+            -----END RSA PRIVATE KEY-----
