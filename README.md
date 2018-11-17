@@ -53,6 +53,8 @@ spring.cloud.config.server.git.~
 - force-pull : 설정 파일을 가져올 때 마다 clone을 사용, 간혹 문제가 발생해서 pull이 되지 않을 때 이 설정을 true로 설정하면 해결 가능
 - deleteUntrackedBranches : 간혹 {label}을 제거하기 위해 원격 브랜치를 지우기도 하는데, Config Server가 해당 브랜치를 이미 로컬에 가지고 있을 경우 계속해서 서비스가 된다. 이 때, 이 옵션을 true로 하면 해결 가능 
 
+참고 : 스프링 부트 실행시 profile을 지정하려면 `-Dspring.profiles.active=local` 옵션 
+
 ### 2. vault를 이용한 설정
 
 Vault : https://www.vaultproject.io/  
